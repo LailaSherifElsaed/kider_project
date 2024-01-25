@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-@include('includes.navTeachers')
+@include('admin.navTeachers')
 <div class="container">
   <h2>Teachers Data</h2>        
   <table class="table table-hover">

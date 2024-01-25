@@ -7,7 +7,7 @@ use App\Http\Controllers\TeacherController;
 use App\Http\Controllers\ClassController;
 
 
-Route::prefix('admin')->group(function () {
+Route::prefix('admin')->middleware('verified')->group(function () {
     //FirstPage
     Route::get('home_page',[ExampleController::class,'admin_homePage'])->name('home_page');
     //Testimonials

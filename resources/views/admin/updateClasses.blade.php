@@ -10,7 +10,7 @@
 	</head>
 
 	<body>
-		@include('includes.classes_nav')
+		@include('admin.classes_nav')
 		<div class="container">
 			<form class="m-auto" method="post" action="{{route('update_class',[$class->id])}}" style="max-width:600px" enctype="multipart/form-data">
 			@csrf

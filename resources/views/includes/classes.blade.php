@@ -10,13 +10,13 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="{{asset('assets/img/classes-6.jpg')}}" alt="">
+                                <img class="img-fluid rounded-circle" src="{{asset('assets/images/'.$class->class_image)}}" alt="">
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <a class="d-block text-center h3 mt-3 mb-4" href="">{{$class->className}}</a>
                                 <div class="d-flex align-items-center justify-content-between mb-4">
                                     <div class="d-flex align-items-center">
-                                        <img class="rounded-circle flex-shrink-0" src="{{asset('assets/img/user.jpg')}}" alt="" style="width: 45px; height: 45px;">
+                                        <img class="rounded-circle flex-shrink-0" src="{{ asset('assets/images/' . $class->teacher->image) }}" alt="" style="width: 45px; height: 45px;">
                                         <div class="ms-3">
                                             <h6 class="text-primary mb-1">{{optional($class->teacher)->teacherName}}</h6>
                                             <small>Teacher</small>

@@ -18,7 +18,7 @@
         </ul>
     </div>
 @endif
-@include('includes.classes_nav')
+@include('admin.classes_nav')
 <div class="container">
   <h2>Classes Data</h2>        
   <table class="table table-hover">

@@ -10,7 +10,7 @@
 	</head>
 
 	<body>
-		@include('includes.nav')
+		@include('admin.nav')
 		<div class="container">
 			<form class="m-auto" method="post" action="{{route('store_teacher')}}" style="max-width:600px" enctype="multipart/form-data">
 			@csrf

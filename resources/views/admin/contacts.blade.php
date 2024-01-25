@@ -8,7 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 <body>
-    @include('includes.navHome')
+    @include('admin.navHome')
 
 <div class="container">
   <h2>Contacts Data</h2>        
@@ -36,5 +36,9 @@
   </table>
 </div>
 
+
 </body>
 </html>
+
+
+

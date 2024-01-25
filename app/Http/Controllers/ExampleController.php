@@ -35,7 +35,8 @@ class ExampleController extends Controller
     {
         $testimonials = Testimonial::get();
         $classes = ClassModel::get();
-        return view('classes',compact('testimonials','classes'));
+        $teachers = Teacher::get();
+        return view('classes',compact('testimonials','classes','teachers'));
     }
     public function contact()
     {

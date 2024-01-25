@@ -10,7 +10,7 @@
 	</head>
 
 	<body>
-		@include('includes.navTeachers')
+		@include('admin.navTeachers')
 		<div class="container">
 			<form class="m-auto" method="post" action="{{ route('update_Teacher',[$teacher->id]) }}" style="max-width:600px" enctype="multipart/form-data">
 			@csrf
